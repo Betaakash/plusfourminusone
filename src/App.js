@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -32,7 +33,6 @@ const App = () => {
     setHistory([]);
   };
 
-  
   // const checkTotalSum = (total) => {
   //   if (total >= 150 && total < 200) {
   //     alert("Great!! You crossed 150");
@@ -44,17 +44,30 @@ const App = () => {
   // };
 
   return (
-    <div className='containerr'>
-      <h1 id="sum">Total Sum: {count}</h1>
-      <button onClick={handleAdd}>+4</button>
-      <button onClick={handleSubtract}>-1</button>
-      <br />
-      <button onClick={handleUndo}>Undo</button>
-      <button onClick={handleReset}>Reset</button>
-    </div>
+    
+      <div className="container">
+        <h1 id="sum">Total: {count}</h1>
+        <div className="button-grid">
+          <div className="button-row">
+            <button className="button" onClick={handleAdd}>
+              +4
+            </button>
+            <button className="button" onClick={handleSubtract}>
+              -1
+            </button>
+          </div>
+          <div className="button-row">
+            <button className="button" onClick={handleUndo}>
+              Undo
+            </button>
+            <button className="button" onClick={handleReset}>
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+   
   );
 };
 
 export default App;
-
-
