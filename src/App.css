@@ -1,70 +1,131 @@
 body {
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(45deg, #3c6382, #1e2657);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  .container {
-    position: relative;
-    align-self: center;
-    vertical-align: middle;
-    width: 300px;
-    height: 300px; 
-    margin: auto; 
-    margin-top: 150px;
-    background-color: rgba(27, 38, 96, 0.4);
-    backdrop-filter: blur(8px);
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  #sum {
-    text-align: center;
-    color: #e9e9e9;
-  }
-  
-  .button-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .button-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .button { 
-    font-family: 'Inter', sans-serif;
-    width: 100px;
-    height: 100px;
-    margin: 0 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ddf0ff;
-    font-size: 100rem;
-    color: #2d2d2d;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0s ease;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .button:focus {
-    outline: none;
-  }
-  
-  .button:hover {
-    background-color: #97d2ff;
-  }
-  
-  .button:active {
-    transform: translate(3px, 3px);
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
-  }
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(45deg, #3c6382, #1e2657);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.container {
+  position: relative;
+  align-self: center;
+  vertical-align: middle;
+  width: 350px;
+  height: 325px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: rgba(35, 46, 102, 0.4);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 5, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#sum {
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.button-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-family: 'Inter', sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddf0ff;
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0s ease;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-add {
+  font-family: 'Inter', sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddf0ff;
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0s ease;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-sub {
+  font-family: 'Inter', sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddf0ff;
+  font-size: 20px;
+  color: #2d2d2d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0s ease;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-add:focus {
+  outline: none;
+}
+
+.button-sub:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color: #97d2ff;
+  transform: scale(1.1);
+}
+
+.button-add:hover {
+  background-color: #1bc021;
+  transform: scale(1.1);
+}
+
+.button-sub:hover {
+  background-color: #c51b1b;
+  transform: scale(1.1);
+}
+.button:active {
+  transform: translate(3px, 3px);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-sub:active {
+  transform: translate(3px, 3px);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-add:active {
+  transform: translate(3px, 3px);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+

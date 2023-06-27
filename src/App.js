@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
 const App = () => {
   const [count, setCount] = useState(0);
   const [history, setHistory] = useState([]);
@@ -26,12 +27,15 @@ const App = () => {
       setHistory(history.slice(0, history.length - 1));
       // checkTotalSum(previousCount);
     }
-  };
+  }; 
+
 
   const handleReset = () => {
     setCount(0);
     setHistory([]);
   };
+
+
 
   // const checkTotalSum = (total) => {
   //   if (total >= 150 && total < 200) {
@@ -49,10 +53,10 @@ const App = () => {
         <h1 id="sum">Total: {count}</h1>
         <div className="button-grid">
           <div className="button-row">
-            <button className="button" onClick={handleAdd}>
+            <button className="button-add" onClick={handleAdd}>
               +4
             </button>
-            <button className="button" onClick={handleSubtract}>
+            <button className="button-sub" onClick={handleSubtract}>
               -1
             </button>
           </div>
@@ -66,7 +70,7 @@ const App = () => {
           </div>
         </div>
       </div>
-   
+  
   );
 };
 
