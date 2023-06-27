@@ -112,6 +112,7 @@ body {
 
 .button-sub:hover {
   background-color: #c51b1b;
+  color: #d6d6d6;
   transform: scale(1.1);
 }
 .button:active {
