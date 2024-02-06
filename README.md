@@ -1,6 +1,4 @@
 ### for JEE and NEET Students to calculate their marks with ease
 
-Every once in two weeks, my brother asks me to get the calculator and do +4 and -1 on it while he checks for his marks. It got a little annoying for me after a while so I created this simple page for him which does +4 and -1. 
-This page is just a playground for me. Will keep experimenting with different css styles and animations. 
-
+Every two weeks, my brother requests that I fetch the calculator and perform +4 and -1 while he verifies his marks. Over time, this became a bit tiresome for me, so I crafted a simple webpage dedicated to this task. It serves as my playground for experimenting with various CSS styles and animations.
 
